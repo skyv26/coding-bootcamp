@@ -1,0 +1,168 @@
+.BootcampText {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  display: flex;
+  padding: 2.5rem 0;
+  flex-direction: column;
+  gap: 1.45rem;
+  position: relative;
+  align-items: center;
+  color: hsl(240, 38%, 20%);
+  font-weight: 300;
+}
+
+.BootcampText figure {
+  position: absolute;
+  top: 1rem;
+}
+
+.BootcampText figure img {
+  display: block;
+  width: 4rem;
+}
+
+.Author {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.Author span {
+  display: block;
+  font-weight: 400;
+  color: hsl(240, 18%, 77%);
+}
+@media (min-width: 20em) {
+  .BootcampText {
+    font-size: 1.5rem;
+    background-size: 55px;
+  }
+}
+
+@media (min-width: 22em) {
+  .BootcampText {
+    font-size: 1.75rem;
+  }
+
+  .BootcampText figure img {
+    display: block;
+    width: 5rem;
+  }
+
+  .Author {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 23em) {
+  .BootcampText {
+    font-size: 1.75rem;
+  }
+
+  .Author {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 25em) {
+  .BootcampText {
+    font-size: 2rem;
+  }
+
+  .Author {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .BootcampText {
+    font-size: 2rem;
+    padding: 2.5rem 0;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+
+  .Author {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 64em) and (min-height: 85em) {
+  .BootcampText {
+    font-size: 2.75rem;
+    background-size: 7.25rem;
+    background-position: center top;
+    padding: 2.5rem;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+
+  .Author {
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .BootcampText {
+    font-size: 2.25rem;
+    padding: 0;
+    z-index: 10;
+    grid-row: 1 / 1;
+    grid-column: 1 / 2;
+    text-align: left;
+    z-index: 10;
+    margin-left: 2rem;
+  }
+
+  .BootcampText figure {
+    position: absolute;
+    top: -4rem;
+    left: 6.25rem;
+  }
+
+  .BootcampText figure img {
+    display: block;
+    width: 8rem;
+  }
+
+  .Author {
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  .Author span {
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 85em) {
+  .BootcampText {
+    font-size: 2.75rem;
+    margin-left: 4rem;
+  }
+
+  .BootcampText figure {
+    position: absolute;
+    top: -5rem;
+    left: 8.25rem;
+  }
+
+  .BootcampText figure img {
+    display: block;
+    width: 10rem;
+  }
+
+  .Author {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 90em) {
+  .BootcampText {
+    margin-left: 4rem;
+  }
+}

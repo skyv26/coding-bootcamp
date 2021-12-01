@@ -1,0 +1,193 @@
+.ImageContainer {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.ImagesDivision {
+  position: relative;
+}
+
+.BackgroundPattern {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.Avatar {
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 8.75%;
+  width: 80%;
+  height: 82%;
+  border-radius: 3px;
+  box-shadow: 0 20px 20px 0 hsla(240, 37%, 20%, 0.11);
+  z-index: 5;
+}
+
+.Corousal {
+  position: absolute;
+  width: 6rem;
+  height: 2.6rem;
+  left: 36%;
+  bottom: 2.25%;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  justify-content: center;
+  z-index: 10;
+}
+
+.Corousal button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.Corousal button:hover {
+  background-color: hsl(240, 18%, 77%);
+}
+
+.Corousal button img {
+  width: 0.75rem;
+  height: 0.9rem;
+}
+
+@media (min-width: 20em) {
+  .Corousal {
+    width: 7rem;
+    height: 3.15rem;
+    left: 36%;
+  }
+}
+
+@media (min-width: 22em) {
+  .Avatar {
+    top: 9.75%;
+    left: 8.75%;
+    width: 80%;
+    height: 82.25%;
+  }
+
+  .Corousal {
+    width: 6.6rem;
+    height: 3rem;
+    bottom: 2.9%;
+  }
+}
+
+@media (min-width: 23em) {
+  .ImageContainer {
+    padding: 2rem;
+    width: 100%;
+  }
+  .Corousal {
+    left: 38%;
+    bottom: 10.5%;
+  }
+}
+
+@media (min-width: 25em) {
+  .ImageContainer {
+    padding: 2.8rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .ImageContainer {
+    padding: 5.15rem;
+  }
+
+  .Avatar {
+    border-radius: 12px;
+    box-shadow: 0 30px 30px 0 hsla(240, 37%, 20%, 0.322);
+  }
+
+  .Corousal {
+    width: 15rem;
+    height: 6rem;
+    left: 38%;
+    border-radius: 30px;
+    bottom: 10%;
+  }
+
+  .Corousal button img {
+    width: 1.6rem;
+    height: 2.25rem;
+  }
+}
+
+@media (min-width: 64em) and (min-height: 85em) {
+  .ImageContainer {
+    padding: 5.15rem;
+  }
+
+  .Avatar {
+    border-radius: 16px;
+    box-shadow: 0 50px 50px 0 hsla(240, 37%, 20%, 0.322);
+  }
+
+  .Corousal {
+    width: 18rem;
+    height: 8rem;
+    left: 38%;
+    border-radius: 40px;
+    bottom: 9%;
+  }
+
+  .Corousal button img {
+    width: 1.6rem;
+    height: 2.25rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .ImageContainer {
+    position: absolute;
+    padding: 0;
+    right: 1rem;
+    width: 53.75rem;
+    grid-column: 2 / -1;
+  }
+
+  .Corousal {
+    width: 9rem;
+    height: 4.5rem;
+    left: 18%;
+    border-radius: 30px;
+    top: 87.5%;
+  }
+
+  .Corousal button img {
+    width: 1.25rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width: 85em) {
+  .ImageContainer {
+    position: absolute;
+    padding: 0;
+    right: 1rem;
+    width: 68rem;
+    grid-column: 2 / -1;
+  }
+}
+
+@media (min-width: 90em) {
+  .ImageContainer {
+    right: 1rem;
+    width: 68rem;
+  }
+  .Avatar {
+    top: 10%;
+    left: 8.75%;
+  }
+  .Corousal {
+    width: 12rem;
+    height: 5rem;
+    left: 16%;
+  }
+}
